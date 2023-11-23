@@ -1,0 +1,29 @@
+name: Update ReadMe with API Content
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Fetch API Content
+        run: |
+          # Fetch the content from the API
+          # Replace the API_URL with the actual API endpoint
+          content=$(curl -s https://dev.to/feed/abdessattar)
+
+          # Update the ReadMe file with the fetched content
+          echo "$content" > README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update ReadMe with API content"
+          git push
