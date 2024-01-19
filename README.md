@@ -5,7 +5,7 @@
     <description>The latest articles on DEV Community by Abdessattar Elyagoubi (@abdessattar).</description>
     <link>https://dev.to/abdessattar</link>
     <image>
-      <url>https://res.cloudinary.com/practicaldev/image/fetch/s--u-n6ikob--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1068146/9386794c-ba8d-44c8-92b3-cb14818e3016.jpg</url>
+      <url>https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https:%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1068146%2F9386794c-ba8d-44c8-92b3-cb14818e3016.jpg</url>
       <title>DEV Community: Abdessattar Elyagoubi</title>
       <link>https://dev.to/abdessattar</link>
     </image>
